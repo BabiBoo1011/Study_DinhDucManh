@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welp!</title>
+    </head>
+    <body>
+        <h2>Welp!</h2>
+        <form>
+            <label for="reviewer-name">Reviewer name: </label><input type="text" id="reviewer-name" placeholder="Please enter your name" minlength="3" required>
+            <br><br>
+            <label for="product">What are you reviewing: </label><input type="text" id="product" placeholder="Film name, book title, etc." required>
+            <br><br>
+            <label for="try-again">Would you try again? Please choose one</label>
+            <br>
+            <input type="radio" name="option" id="try-again">Yes
+            <br>
+            <input type="radio" name="option" id="try-again">No
+            <br><br>
+            <label for="rate">Rate and Comment</label>
+            <br>
+            <input id="rate" type="number" step="0.5" min="0" max="5">
+            <br><br>
+            <textarea placeholder="Write comment" maxlength="250" cols="50" rows="4"></textarea>
+            <br><br>
+            <input type="submit" value="Submit Review">
+        </form>
+    </body>
+</html>

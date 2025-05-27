@@ -1,0 +1,11 @@
+div#outer {
+    width: 500px;
+    height: 500px;
+    background-color: beige;
+  }
+div#inner {
+    width: 400px;
+    height: 400px;
+    background-image: url("https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg");
+    background-size: contain;
+}
