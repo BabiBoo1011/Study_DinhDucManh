@@ -1,0 +1,15 @@
+#invite-wrapper {
+    width: 50%;
+    padding: 25px;
+    background-color: #d9d9d9;
+}
+h1 {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+#invite-text {
+    width: 86%;
+}
+#itinerary {
+    text-align: center;
+}
